@@ -1,0 +1,73 @@
+! This file contains configurations for:
+! terminal colors
+! urxvt
+! rofi
+
+#define FOREGROUND #fffafa
+#define BACKGROUND #2e3440
+
+#define COLOR0 #3b4252
+#define COLOR8 #4c566a
+#define COLOR1 #bb5481
+#define COLOR9 #bb5481
+#define COLOR2 #e999b2
+#define COLOR10 #e999b2
+#define COLOR3 #d284a5
+#define COLOR11 #d284a5
+#define COLOR4 #6f5497
+#define COLOR12 #6f5497
+#define COLOR5 #b48ead
+#define COLOR13 #b48ead
+#define COLOR6 #eceff4
+#define COLOR14 #080d25
+#define COLOR7 #e5e9f0
+#define COLOR15 #eceff4
+
+
+! === colorscheme === !
+
+*.foreground : FOREGROUND
+*.background : BACKGROUND
+*.cursorColor: FOREGROUND
+*.color0 : COLOR0
+*.color8 : COLOR8
+*.color1 : COLOR1
+*.color9 : COLOR9
+*.color2 : COLOR2
+*.color10: COLOR10
+*.color3 : COLOR3
+*.color11: COLOR11
+*.color4 : COLOR4
+*.color12: COLOR12
+*.color5 : COLOR5
+*.color13: COLOR13
+*.color6 : COLOR6
+*.color14: COLOR14
+*.color7 : COLOR7
+*.color15: COLOR15
+
+! === urxvt === !
+
+URxvt.letterSpace : 0
+URxvt.lineSpace : 0
+URxvt.geometry : 92x24
+URxvt.scrollBar: false
+URxvt.background : BACKGROUND
+URxvt.cursorBlink : true
+URxvt.cursorUnderline: false
+URxvt.internalBorder: 24
+URxvt.depth: 24
+
+URxvt.perl-ext-common: default, clipboard, url-select, keyboard-select, selection-to-clipboard
+URxvt.copyCommand: xclip -i -selection clipboard
+URxvt.pasteCommand: xclip -o -selection clipboard
+URxvt.keysym.M-c: perl:clipboard:copy
+URxvt.keysym.M-v: perl:clipboard:paste
+URxvt.urlLauncher: qutebrowser
+URxvt.underlineURLs: true
+URxvt.urlButton: 1
+
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
+URxvt.isol4755: false
+URxvt.isol14755_52: false
