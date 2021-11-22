@@ -6,3 +6,5 @@ i3 .config files for Unix-based systems
 ![rofi_freebsd](https://drive.google.com/uc?export=view&id=1iq0DXp2iaC_Xsgis_it-DF2xPwsUz9QC)
 
 ![i3gaps_arch](https://drive.google.com/uc?export=view&id=1RQyTJ_Rhjt8JRmtB6GhCgpS-xpnrqmGG)
+
+![i3gaps_gentoo](https://drive.google.com/uc?export=view&id=1hqmBzcUQvkZu3h_kXOqOMWEURp95_wE5)
