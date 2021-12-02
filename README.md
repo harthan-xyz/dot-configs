@@ -1,5 +1,5 @@
 # .configs
-i3 .config files for Unix-based systems
+.config files for Unix-based systems
 
 ![i3gaps_freebsd](https://drive.google.com/uc?export=view&id=1HMbAno_yBNLkM8ccgC_7ujI2vS7pto__)
 
