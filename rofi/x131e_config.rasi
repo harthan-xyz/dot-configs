@@ -1,0 +1,118 @@
+* {
+	background:		#070707;
+	foreground:		#fd535e;
+	border-color:		#fd535e;
+}
+
+configuration {
+	font: 			"SourceCodePro 12";
+	show-icons: 		true;
+	icon-theme:		"Papirus";
+	terminal:		"kitty";
+	disable-history:	true;
+	sidebar-mode:		true;
+}
+
+#window {
+	transparency:		"real";
+	background-color: 	@background;
+	border:		 	0% 0% 0% 1%;
+	border-color:		@border-color;
+	padding:	 	10;
+	width:		 	60%;
+	height:			45%;
+}
+
+#mainbox {
+	padding:		5;
+	background-color: 	@background;
+}
+
+#textbox {
+	text-color: 		@foreground;
+	background-color: 	@background;
+}
+
+#listview {
+	fixed-height: 		0;
+	border:			0px 0px 0px;
+	background-color: 	@background;
+	spacing:		2px;
+	scrollbar:		true;
+	padding:		0px 0px 0px;
+}
+
+#element {
+	border:			0;
+	padding:		10px 10px;
+}
+
+#element.normal.normal {
+	background-color:	@background;
+	text-color:		@foreground;
+}
+
+#element.alternate.normal {
+	background-color:	@background;
+	text-color:		@foreground;
+}
+
+#element.selected.normal {
+	background-color:	@foreground;
+	text-color:		@background;
+}
+
+#button {
+	spacing:		0;
+	background-color:	@background;
+	text-color:		@foreground;
+}
+
+#button selected {
+	background-color:	@foreground;
+	text-color:		@background;
+}
+
+#scrollbar {
+	width:			0;
+	border: 		0;
+	handle-width:		0px;
+	padding:		0;
+	background-color: 	@background;
+}
+
+#case-indicator {
+	spacing:		0;
+	background-color: 	@background;
+	text-color:		@foreground;
+}
+
+#entry {
+	spacing:		0;
+	background-color: 	@background;
+	text-color:		@foreground;
+	placeholder:		"Search";
+}
+
+#prompt {
+	spacing:		0;
+	background-color: 	@background;
+	text-color:		@foreground;
+}
+
+#inputbar {
+	spacing:		0;
+	children: 		[ prompt, textbox-prompt-colon,entry,case-indicator ];
+	text-color:		@foreground;
+	background-color: 	@background;
+	padding:		1%;
+	position:		center;
+}
+
+#textbox-prompt-colon {
+	expand:			false;
+	str:			"  ";
+	margin:			0 0.3em 0em 0em;
+	text-color:		@foreground;
+	background-color: 	@background;
+}
