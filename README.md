@@ -10,7 +10,7 @@
 ![i3gaps_rofi](https://drive.google.com/uc?export=view&id=14uvywB2Da98xMatGU8yUpMlfrmK9kB17)
 
 
-** The following screenshots do not have config files in this repo: **
+** The following screenshots do not have config files in this repository. **
 
 ![i3gaps_arch](https://drive.google.com/uc?export=view&id=1RQyTJ_Rhjt8JRmtB6GhCgpS-xpnrqmGG)
 
