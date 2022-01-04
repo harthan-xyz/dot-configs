@@ -56,7 +56,7 @@ set $right semicolon
 floating_modifier $modkey
 
 # start a terminal
-bindsym $modkey+Return exec i3-sensible-terminal
+bindsym $modkey+Return exec kitty
 
 # kill focused window
 bindsym $modkey+Shift+q kill
