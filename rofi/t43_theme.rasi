@@ -5,6 +5,14 @@
 
 }
 
+configuration {
+	show-icons:		true;
+	icon-theme:		"Papirus";
+	temrinal:		"urxvt";
+	disable-history:	true;
+	sidebar-mode:		true;
+}
+
 #window {
 	background-color: 	@background;
 	border:		 	1;
