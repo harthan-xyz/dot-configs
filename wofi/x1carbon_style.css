@@ -1,0 +1,58 @@
+@define-color background #cfc5dd;
+@define-color foreground #130c1c;
+@define-color border-color #130c1c;
+
+* {
+	border: 2px;
+	border-color: @border-color;
+}
+
+window {
+	font-family: iosevka term;
+	font-size: 18px;
+	padding: 10px;
+	background-color: @background;
+}
+
+#input {
+	border: 0px;
+	padding: 10px;
+	margin: 0px;
+	font-size: 20px;
+	color: @foreground;
+	background-color: @background;
+	align: center;
+}
+		
+#inner-box {
+	margin: 0px;
+	color: @foreground;
+	background-color: @background;
+}
+
+#outer-box {
+	padding: 5;
+	background-color: @background;
+}
+
+#selected {
+	background-color: @foreground;
+}
+
+#entry {
+	padding: 0px;
+	margin: 0px;
+	color: @foreground; 
+	background-color: @background;
+}
+
+#scroll {
+	margin: 5px;
+	background-color: @background;
+}
+
+#text {
+	margin: 0px;
+	padding: 2px 2px 2px 10px;
+}
+

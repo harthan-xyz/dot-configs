@@ -1,0 +1,61 @@
+{
+    "layer": "top", // Waybar at top layer
+    "position": "top", // Waybar position (top|bottom|left|right)
+    "height": 0, // Waybar height (to be removed for auto height)
+    "spacing": 0, // Gaps between modules (4px default)
+    // Choose the order of the modules
+    "modules-left":["sway/workspaces", "sway/window"],
+    //"modules-center": ["sway/window"],
+    "modules-right": ["cpu", "memory", "temperature", "battery", "clock", "tray"],
+    // Modules configuration
+    "sway/workspaces": {
+         "disable-scroll": true,
+         "all-outputs": true,
+         "format": "{icon}",
+         "format-icons": {
+             "1": "1",
+	     "2": "2",
+             "3": "3",
+             "4": "4",
+             "5": "5",
+	     "6": "6",
+	     "7": "7",
+	     "8": "8",
+	     "9": "9",
+	     "10": "10"
+         }
+      },
+    "tray": {
+        "icon-size": 10,
+        "spacing": 10
+    },
+    "clock": {
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "format": "{:%H:%M}",
+	"format-alt": "{:%m-%d-%Y}"
+    },
+    "cpu": {
+        "format": "{usage}%  ",
+        "tooltip": false
+    },
+    "memory": {
+        "format": "{}%  "
+    },
+    "temperature": {
+        "critical-threshold": 80,
+        "format": "{temperatureF}°F {icon}",
+        "format-icons": ["", "", ""]
+    },
+    "battery": {
+        "states": {
+            "good": 95,
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{capacity}% {icon}",
+        "format-charging": "{capacity}%  ",
+        "format-plugged": "{capacity}% ",
+        "format-alt": "{time} {icon}",
+        "format-icons": ["", "", "", "", ""]
+    },
+}
