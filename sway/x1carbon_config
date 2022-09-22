@@ -195,6 +195,8 @@ output * bg /home/harthan/Pictures/background.jpg fill
 #	bindsym Escape mode "default"
 #}
 
+# bindsym $mod+r mode "resize"
+
 bindsym $mod+r exec alacritty -e 'ranger'
 
 bar {
