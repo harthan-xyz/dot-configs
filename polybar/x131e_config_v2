@@ -49,7 +49,7 @@ font-2 = FontAwesome5Free:style=Regular:size=10;1
 font-3 = FontAwesome5Brands:style=Regular:size=10;1
 font-4 = Hack Nerd Font:pixelsize=14;1
 
-modules-left = i3
+modules-left = i3 xwindow
 modules-right = wlan eth date battery
 
 cursor-click = pointer
