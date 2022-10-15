@@ -198,6 +198,9 @@ client.urgent			$urgent-bg-color	$urgent-bg-color	$text-color		#afafaf
 
 hide_edge_borders both
 
+# Scrot (screen capture)
+bindsym Print exec scrot
+
 # i3 Gaps
 for_window [class="^.*"] border pixel 1
 gaps inner 10
