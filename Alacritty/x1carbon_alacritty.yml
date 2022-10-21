@@ -1,0 +1,48 @@
+# Fonts (Iosevka Terminal)
+font:
+  normal:
+    family: iosevka term
+    style: Regular 
+
+  bold:
+    family: iosevka term
+    style: Bold
+
+  italic:
+    family: iosevka term
+    sytle: Italic
+
+  bold_italic:
+    family: iosevka term
+    sytle: Bold Italic
+
+  size: 10
+
+# Colors
+colors:
+  # Default colors
+  primary:
+    background: '#130c1c'
+    foreground: '#cfc5dd'
+
+  # Normal colors
+  normal:
+    black:   '#1f152a'
+    red:     '#291d36'
+    green:   '#3c2d4e'
+    yellow:  '#56426f'
+    blue:    '#775c98'
+    magenta: '#9882b6'
+    cyan:    '#bcaed0'
+    white:   '#e5e0ed'
+
+  # Bright colors
+  bright:
+    black:   '#d983ac'
+    red:     '#75893a'
+    green:   '#56927e'
+    yellow:  '#ba9fe2'
+    blue:    '#e397ba'
+    magenta: '#55a78e'
+    cyan:    '#d868a1'
+    white:   '#679eb2'
