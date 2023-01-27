@@ -1,4 +1,4 @@
-# Fonts (Iosevka Terminal)
+# Fonts (Source Code Pro)
 font:
   normal:
     family: SourceCodePro
@@ -46,6 +46,3 @@ colors:
     magenta: '#b6a96f'
     cyan:    '#f2bcba'
     white:   '#b0a36c'
-
-window:
-  opacity: 0.7
