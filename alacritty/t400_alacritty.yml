@@ -1,0 +1,51 @@
+# Fonts (Iosevka Terminal)
+font:
+  normal:
+    family: SourceCodePro
+    style: Regular 
+
+  bold:
+    family: SourceCodePro
+    style: Bold
+
+  italic:
+    family: SourceCodePro
+    sytle: Italic
+
+  bold_italic:
+    family: SourceCodePro
+    sytle: Bold Italic
+
+  size: 8
+
+# Colors
+colors:
+  # Default colors
+  primary:
+    background: '#0f1117'
+    foreground: '#c2c6d5'
+
+  # Normal colors
+  normal:
+    black:   '#181c2f'
+    red:     '#20242e'
+    green:   '#303543'
+    yellow:  '#454c5e'
+    blue:    '#606981'
+    magenta: '#818ca9'
+    cyan:    '#aeb4c7'
+    white:   '#e0e2e9'
+
+  # Bright colors
+  bright:
+    black:   '#84a0de'
+    red:     '#b1a14f'
+    green:   '#b3c1e5'
+    yellow:  '#a5b8e9'
+    blue:    '#9fb6eb'
+    magenta: '#b6a96f'
+    cyan:    '#f2bcba'
+    white:   '#b0a36c'
+
+window:
+  opacity: 0.7
