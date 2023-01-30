@@ -51,7 +51,7 @@ set $right semicolon
 floating_modifier $modkey
 
 # start a terminal
-bindsym $modkey+Return exec LIBGL_ALWAYS_SOFTWARE=1 kitty
+bindsym $modkey+Return exec LIBGL_ALWAYS_SOFTWARE=1 alacritty
 
 # kill focused window
 bindsym $modkey+Shift+q kill
@@ -187,7 +187,7 @@ bindsym $modkey+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shor
 
 # bindsym $modkey+r mode "resize"
 
-bindsym $modkey+r exec LIBGL_ALWAYS_SOFTWARE=1 kitty -e 'ranger'
+bindsym $modkey+r exec LIBGL_ALWAYS_SOFTWARE=1 alacritty -e 'ranger'
 
 # window colors
 #				border			background		text			indicator
@@ -208,9 +208,10 @@ gaps outer 2
 smart_borders on
 
 # make all terminals have a one pixel border
-for_window [class="kitty"] border pixel 1
+for_window [class="alacritty"] border pixel 1
 
 # Startup Execs
 exec_always --no-startup-id ~/.config/polybar/launch.sh
 exec_always feh --bg-center ~/Pictures/background.jpg
 exec_always --no-startup-id picom -b
+exec_always syncthing --no-browser
