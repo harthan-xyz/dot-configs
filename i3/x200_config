@@ -193,7 +193,7 @@ bindsym $modkey+i exec LIBGL_ALWAYS_SOFTWARE=1 alacritty -e 'weechat'
 bindsym $modkey+p exec LIBGL_ALWAYS_SOFTWARE=1 alacritty -e 'profanity'
 bindsym $modkey+n exec LIBGL_ALWAYS_SOFTWARE=1 alacritty -e 'newsboat'
 bindsym $modkey+u exec emacs
-bindsym $modkey+x exec --no-startup-id i3lock -i /home/harthan/Pictures/background.png -t & sleep 100
+bindsym $modkey+x exec --no-startup-id betterlockscreen -l
 
 # window colors
 #				border			background		text			indicator
