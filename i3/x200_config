@@ -192,6 +192,7 @@ bindsym $modkey+o exec LIBGL_ALWAYS_SOFTWARE=1 alacritty -e 'gomuks'
 bindsym $modkey+i exec LIBGL_ALWAYS_SOFTWARE=1 alacritty -e 'weechat'
 bindsym $modkey+p exec LIBGL_ALWAYS_SOFTWARE=1 alacritty -e 'profanity'
 bindsym $modkey+n exec LIBGL_ALWAYS_SOFTWARE=1 alacritty -e 'newsboat'
+bindsym $modkey+m exec LIBGL_ALWAYS_SOFTWARE=1 alacritty -e 'neomutt'
 bindsym $modkey+u exec emacs
 bindsym $modkey+x exec --no-startup-id betterlockscreen -l
 
