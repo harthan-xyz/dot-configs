@@ -1,0 +1,200 @@
+appConfig:
+  theme: minimal-dark
+  layout: horizontal
+  iconSize: medium
+  language: en
+pageInfo:
+  title: harthan
+  description: ''
+  navLinks:
+    - title: hrthn.xyz
+      path: https://hrthn.xyz
+      target: newtab
+  footerText: Nasa Diyos ang awa, nasa tao ang gawa.
+sections:
+  - name: Hosts
+    icon: fas fa-desktop
+    items:
+      - &ref_0
+        title: openstack
+        icon: hl-openstack
+        url: http://openstack.harthan.local
+        target: newtab
+        id: 0_529_openstack
+      - &ref_1
+        title: rogue
+        icon: hl-proxmox
+        url: https://rogue.harthan.local:8006
+        target: newtab
+        id: 1_529_rogue
+      - &ref_2
+        title: paladin
+        icon: hl-proxmox
+        url: https://paladin.harthan.local:8006
+        target: newtab
+        id: 2_529_paladin
+      - &ref_3
+        title: nuc
+        icon: hl-proxmox
+        url: https://nuc.harthan.local:8006
+        target: newtab
+        id: 3_529_nuc
+      - &ref_4
+        title: nas
+        icon: hl-qnap-alt
+        url: http://nas.harthan.local:8080
+        target: newtab
+        id: 4_529_nas
+    filteredItems:
+      - *ref_0
+      - *ref_1
+      - *ref_2
+      - *ref_3
+      - *ref_4
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+  - name: Networking
+    icon: fas fa-ethernet
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - &ref_5
+        title: akali
+        icon: hl-mikrotik
+        url: http://akali.harthan.local
+        target: newtab
+        id: 0_1064_akali
+      - &ref_6
+        title: heihachi
+        icon: hl-mikrotik
+        url: http://heihachi.harthan.local
+        target: newtab
+        id: 1_1064_heihachi
+      - &ref_7
+        title: cammy
+        icon: hl-pfsense
+        url: https://cammy.harthan.local
+        target: newtab
+        id: 2_1064_cammy
+      - &ref_8
+        title: peach
+        description: OpenGear Console Server
+        icon: fas fa-server
+        url: http://peach.harthan.local
+        target: newtab
+        id: 3_1064_peach
+      - &ref_9
+        title: rpi3
+        description: ''
+        icon: hl-pihole
+        url: http://rpi3.harthan.local/admin/
+        target: newtab
+        id: 4_1064_rpi
+      - &ref_10
+        title: zenyatta
+        icon: si-openwrt
+        url: http://zenyatta.harthan.local
+        target: newtab
+        id: 5_1064_zenyatta
+      - &ref_11
+        title: roadhog
+        icon: si-openwrt
+        url: http://roadhog.harthan.local
+        target: newtab
+        id: 6_1064_roadhog
+      - &ref_12
+        title: alpine
+        icon: hl-smokeping
+        url: http://harthanalpine.harthan.local/smokeping/smokeping.cgi
+        target: newtab
+        id: 7_1064_alpine
+    filteredItems:
+      - *ref_5
+      - *ref_6
+      - *ref_7
+      - *ref_8
+      - *ref_9
+      - *ref_10
+      - *ref_11
+      - *ref_12
+  - name: Services
+    icon: fas fa-building
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - &ref_13
+        title: ranger
+        icon: hl-freeipa
+        url: https://ranger.harthan.local/ipa/ui/
+        target: newtab
+        id: 0_836_ranger
+      - &ref_14
+        title: grafana
+        icon: hl-grafana
+        url: http://mon.harthan.local:3000
+        target: newtab
+        id: 1_836_grafana
+      - &ref_15
+        title: prometheus
+        icon: hl-prometheus
+        url: http://mon.harthan.local:9090
+        target: newtab
+        id: 2_836_prometheus
+      - &ref_16
+        title: opensearch
+        icon: hl-opensearch
+        url: http://logs.harthan.local:5601
+        target: newtab
+        id: 3_836_opensearch
+      - &ref_17
+        title: mailcow
+        icon: hl-mailcow
+        url: https://besty.harthan.local
+        target: newtab
+        id: 4_836_mailcow
+      - &ref_18
+        title: email
+        icon: hl-sogo
+        url: https://betsy.harthan.local/SOGo/so/
+        target: newtab
+        id: 5_836_email
+      - &ref_19
+        title: plex
+        icon: hl-plex
+        url: http://nas.harthan.local:32400/
+        target: newtab
+        id: 6_836_plex
+      - &ref_20
+        title: nextcloud
+        icon: hl-nextcloud
+        url: http://nextcloud.harthan.local
+        target: newtab
+        id: 7_836_nextcloud
+      - &ref_21
+        title: netbox
+        icon: hl-netbox
+        url: https://192.168.1.199/
+        target: newtab
+        id: 8_836_netbox
+    filteredItems:
+      - *ref_13
+      - *ref_14
+      - *ref_15
+      - *ref_16
+      - *ref_17
+      - *ref_18
+      - *ref_19
+      - *ref_20
+      - *ref_21
