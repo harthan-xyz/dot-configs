@@ -10,11 +10,11 @@ font:
 
   italic:
     family: SourceCodePro
-    sytle: Italic
+    style: Italic
 
   bold_italic:
     family: SourceCodePro
-    sytle: Bold Italic
+    style: Bold Italic
 
   size: 8
 
